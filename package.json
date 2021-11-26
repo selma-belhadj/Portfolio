@@ -1,7 +1,7 @@
 {
   "name": "my-1st-portfolio",
   "version": "1.0.0",
-  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "description": "![Build a personal portfolio site: mobile version](https://img.shields.io/badge/Microverse-blueviolet)",
   "main": "index.js",
   "dependencies": {
     "eslint": "^8.3.0"
