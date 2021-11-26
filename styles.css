@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -24,7 +24,7 @@ header h2 {
   font-weight: 600;
 }
 
-header .fa-git  {
+header .fa-git {
   font-weight: 500;
   font-size: 20px;
   cursor: pointer;
