@@ -1,59 +1,41 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Portfolio: setup and mobile version skeleton 
 
-> One paragraph statement about the project.
+> This is my portfolio website showing myself as a web developer. 
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](./images/mobileportfolioversion.png)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- HTML
+- CSS
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+- Linters
+- GitHub Flow
+- Flexbox
+- Figma
 
-### Setup
 
 ### Install
+- git clone [git@github.com:selma-belhadj/My-1st-Portfolio.git](git@github.com:selma-belhadj/My-1st-Portfolio.git)
 
-### Usage
-
-### Run tests
-
-### Deployment
+- cd My-1st-Portfolio
 
 
+## Author
 
-## Authors
+👤 **Author**
 
-👤 **Author1**
+- GitHub: [@selma-belhadj](https://github.com/selma-belhadj)
+- Twitter: [@Bel_Selma16](https://twitter.com/Bel_Selma16)
+- LinkedIn: [@selma-belhadj](https://www.linkedin.com/in/selma-belhadj/)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -65,11 +47,9 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+## Learn More
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+You can learn more in the [Set up a "Hello Microverse" project](https://github.com/microverseinc/curriculum-transversal-skills/blob/main/documentation/hello_microverse_project.md)
 
 ## 📝 License
 
