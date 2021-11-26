@@ -1,0 +1,92 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.intro {
+  font-size: 40px;
+  margin-bottom: 58px;
+  margin-top: 65px;
+  text-align: center;
+  color: #172b4d;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 24px 0 24px;
+}
+
+header h2 {
+  font-weight: 600;
+}
+
+header .fa-git {
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.welcome {
+  color: #28352f;
+  font-weight: 600;
+  font-size: 20px;
+  width: 90px;
+  height: 28px;
+}
+
+nav .fa-bars {
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  color: #28352f;
+}
+
+.home-page {
+  background-image: url(./images/header.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 span {
+  color: #36b37e;
+}
+
+.info {
+  color: #172b4d;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 60px;
+  padding: 0 18px;
+}
+
+.icon-list {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-list li {
+  list-style: none;
+  margin-right: 19px;
+}
+
+.icon-list a {
+  font-size: 25px;
+  color: #505f79;
+}

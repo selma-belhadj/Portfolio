@@ -1,0 +1,30 @@
+{
+  "name": "my-1st-portfolio",
+  "version": "1.0.0",
+  "description": "![Build a personal portfolio site: mobile version](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^8.3.0"
+  },
+  "devDependencies": {
+    "hint": "^6.1.9",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salam16/My-1st-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salam16/My-1st-Portfolio/issues"
+  },
+  "homepage": "https://github.com/salam16/My-1st-Portfolio#readme"
+}
