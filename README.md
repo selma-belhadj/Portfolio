@@ -4,7 +4,7 @@
 
 > This is my portfolio website showing myself as a web developer. 
 
-![screenshot](./images/mobileportfolioversion.png)
+![screenshot](./images/portfoliomobileversion.png)
 
 ## Built With
 
