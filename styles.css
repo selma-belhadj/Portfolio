@@ -158,7 +158,6 @@ hr {
 }
 
 .work-list {
-  /* justify-content: space-between; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -224,6 +223,7 @@ hr {
   padding: 18px;
   border-radius: 50%;
   margin-top: 34px;
+  margin-bottom: 70px;
 }
 
 .about-div {
@@ -280,7 +280,8 @@ hr {
   border-radius: 4px;
   padding: 12px;
   border: none;
-  margin-bottom: 22px;
+  margin-bottom: 26px;
+  margin-top: 36px;
 }
 
 .about-button:focus {
