@@ -4,7 +4,10 @@
 
 > This is my portfolio website showing myself as a web developer. 
 
-![screenshot](./images/portfoliomobileversion.png)
+![screenshot](./images/recentwork.png)
+![screenshot](./images/aboutme-languages.png)
+![screenshot](./images/aboutme-framworks-skills.png)
+
 
 ## Built With
 

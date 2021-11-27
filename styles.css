@@ -24,13 +24,14 @@ a {
   color: #172b4d;
 }
 
-.work-li p {
-  margin-right: 9px;
-  margin-left: 9px;
+.work-list li {
   background: #ebf0ee;
   border-radius: 4px;
-  padding: 8px 12px;
-  font-size: 10px;
+  margin-bottom: 8px;
+  padding: 12px;
+  font-weight: 600;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 header {
@@ -123,7 +124,7 @@ h2 span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 16px;
+  padding: 0;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
   margin-bottom: 24px;
@@ -138,7 +139,7 @@ h4 {
   color: #28352f;
 }
 
-.portimg {
+.projectimg {
   height: 252px;
   width: 100%;
   background-color: #ebf0ee;
@@ -156,17 +157,23 @@ hr {
   margin-bottom: 50px;
 }
 
-.work-li {
-  align-items: center;
+.work-list {
+  /* justify-content: space-between; */
   display: flex;
-  justify-content: space-between;
-  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
+  list-style: none;
+  color: #36b37e;
+  margin: 0;
+  padding: 12px;
+  height: auto;
 }
 
-.work-but {
+.work-button {
   width: 122px;
   height: 48px;
   font-weight: 500;
@@ -181,7 +188,7 @@ hr {
   margin-bottom: 22px;
 }
 
-.work-but:focus {
+.work-button:focus {
   background-color: #008552;
 }
 
@@ -190,6 +197,7 @@ hr {
 }
 
 #about-head {
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -235,7 +243,7 @@ hr {
   padding: 0;
 }
 
-.about-li {
+.about-list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -250,15 +258,18 @@ hr {
   height: auto;
 }
 
-.about-li li {
+.about-list li {
   background: #fff;
   border-radius: 4px;
   margin-bottom: 8px;
   padding: 12px;
   font-weight: 600;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #36b37e;
 }
 
-.about-but {
+.about-button {
   width: 159px;
   height: 48px;
   font-weight: 500;
@@ -272,6 +283,6 @@ hr {
   margin-bottom: 22px;
 }
 
-.about-but:focus {
+.about-button:focus {
   background-color: #008552;
 }
