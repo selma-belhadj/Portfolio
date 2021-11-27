@@ -4,9 +4,12 @@
 
 > This is my portfolio website showing myself as a web developer. 
 
-![screenshot](./images/recentwork.png)
-![screenshot](./images/aboutme-languages.png)
-![screenshot](./images/aboutme-framworks-skills.png)
+
+<img src="./images/recentwork.png" alt="Getting started" />
+<img src="./images/aboutme-framworks-skills.png" alt="Getting started" />
+<img src="./images/aboutme-languages.png" alt="Getting started" />
+
+
 
 
 ## Built With
