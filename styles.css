@@ -1,9 +1,8 @@
-
 * {
   margin: 0;
   box-sizing: border-box;
   color: #172b4d;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 main {
@@ -287,12 +286,12 @@ hr {
 .about-button:focus {
   background-color: #008552;
 }
-.form-section{
+.form-section {
   display: flex;
   flex-direction: column;
 }
 
-.contact-text{
+.contact-text {
   width: 327px;
   height: 363px;
   margin: 24px 0px;
@@ -300,13 +299,59 @@ hr {
   margin-bottom: 58px;
 }
 
-.contact-text p{
+.contact-text p {
   font-family: Inter;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
+.form-class {
+  width: 327px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  margin: 0 auto;
+}
+
+input {
+  width: 327px;
+  height: 48px;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+
+::placeholder {
+  height: 18px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #6b778c;
+  padding: 15px 16px 15px 16px;
+}
+
+.form-class textarea {
+  width: 327px;
+  height: 114px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  background: #ffffff;
+  border: 1px solid #60c095;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #091e42;
+}
