@@ -203,6 +203,15 @@ hr {
   text-align: center;
 }
 
+.contact-text p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+}
+
 #about-head p {
   width: 351px;
   height: 189px;
@@ -284,8 +293,19 @@ hr {
 }
 
 .about-button:focus {
-  background-color: #008552;
+  background-color: #36b37f;
 }
+
+.about-button:hover {
+  background: #36b37f;
+  color: #fff;
+}
+
+.about-button:active {
+  background: #008552;
+  color: #fff;
+}
+
 .form-section {
   display: flex;
   flex-direction: column;
@@ -294,19 +314,9 @@ hr {
 .contact-text {
   width: 327px;
   height: 363px;
-  margin: 24px 0px;
+  margin: 24px 0;
   margin: 0 auto;
   margin-bottom: 58px;
-}
-
-.contact-text p {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 52px;
-  text-align: center;
-  color: #172b4d;
 }
 
 .form-class {
@@ -315,8 +325,8 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
   margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 input {
@@ -330,7 +340,6 @@ input {
 
 ::placeholder {
   height: 18px;
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -344,12 +353,11 @@ input {
 .form-class textarea {
   width: 327px;
   height: 114px;
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #60c095;
   box-sizing: border-box;
   border-radius: 4px;
