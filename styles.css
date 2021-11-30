@@ -287,3 +287,26 @@ hr {
 .about-button:focus {
   background-color: #008552;
 }
+.form-section{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-text{
+  width: 327px;
+  height: 363px;
+  margin: 24px 0px;
+  margin: 0 auto;
+  margin-bottom: 58px;
+}
+
+.contact-text p{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172B4D;
+}
+
