@@ -93,6 +93,7 @@ h2 span {
 .icon-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .icon-list li {
@@ -102,6 +103,10 @@ h2 span {
 
 .icon-list a {
   font-size: 25px;
+  color: #505f79;
+}
+
+i {
   color: #505f79;
 }
 
@@ -363,4 +368,38 @@ input {
   border-radius: 4px;
   color: #091e42;
   margin-bottom: 24px;
+}
+
+.line {
+  width: 5px;
+  text-align: center;
+  margin-left: 0;
+  color: black;
+}
+
+footer {
+  background: white url(./images/illustration-contact-form.svg) no-repeat;
+  background-size: 20%;
+  background-position-x: right;
+  background-position-y: 670px;
+  margin-right: 0;
+}
+
+#email-footer {
+  height: 189px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  color: #42526e;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.footer-img {
+  margin: 0 auto;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
 }
