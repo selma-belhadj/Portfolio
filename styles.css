@@ -197,6 +197,7 @@ hr {
 
 .linkhover:hover {
   cursor: pointer;
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 #about-head {
@@ -302,11 +303,29 @@ hr {
 }
 
 .about-button:hover {
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
   background: #36b37f;
   color: #fff;
+  cursor: pointer;
 }
 
 .about-button:active {
+  background: #008552;
+  color: #fff;
+}
+
+.work-button:focus {
+  background-color: #36b37f;
+}
+
+.work-button:hover {
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  background: #36b37f;
+  color: #fff;
+  cursor: pointer;
+}
+
+.work-button:active {
   background: #008552;
   color: #fff;
 }
@@ -366,8 +385,12 @@ input {
   border: 1px solid #60c095;
   box-sizing: border-box;
   border-radius: 4px;
-  color: #091e42;
+  color: #091E42;
   margin-bottom: 24px;
+}
+
+textarea::placeholder{
+  color: #091E42;
 }
 
 .line {
