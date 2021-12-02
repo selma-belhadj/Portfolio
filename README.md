@@ -1,13 +1,15 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+
 # Portfolio: setup and mobile version skeleton 
 
 > This is my portfolio website showing myself as a web developer. 
 
-
-<img src="./images/recentwork.png" alt="Getting started" />
-<img src="./images/aboutme-framworks-skills.png" alt="Getting started" />
-<img src="./images/aboutme-languages.png" alt="Getting started" />
+![recent work section](./images/recentwork.png)
+![About me Frameworks section](./images/aboutme-framworks-skills.png)
+![About me languages section](./images/aboutme-languages.png)
+![Text contact section](./images/textcontact.png )
+![Form contact section](./images/form-contact.png)
 
 
 
@@ -48,6 +50,10 @@ To get a local copy up and running follow these simple example steps.
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
+
+## Acknowledgment
+I need to thank my pair programming thank Ola Ishola [@netman5](https://github.com/netman5) for his help and support.
+
 
 ## Show your support
 
