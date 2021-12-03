@@ -124,8 +124,6 @@ i {
 
 #main-head h2 {
   font-size: 28px;
-
-  /* white-space: pre; */
   justify-items: center;
 }
 
@@ -538,10 +536,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* margin-bottom: 24px; */
-
-    /* padding-left: 40px; */
     margin-bottom: 24px;
   }
 
@@ -578,8 +572,6 @@ footer {
     border-radius: 8px;
     height: 474px;
     width: 327px;
-
-    /* margin-left: 7px; */
     margin-right: 17px;
     margin-bottom: 17px;
   }
@@ -708,11 +700,6 @@ footer {
   }
 
   .footer-nav {
-    /* width: 1100px; */
-
-    /* margin: 5px 0; */
-
-    /* width: 85%; */
     background-image: url(./images/Frame.png), url(./images/illustration-2-contact-form-desktop.png), url(./images/Frame-1.png);
     background-position: bottom right, 13rem bottom, bottom left;
     background-size: 10%;
