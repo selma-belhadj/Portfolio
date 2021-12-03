@@ -25,6 +25,7 @@ a {
   margin-top: 65px;
   text-align: center;
   color: #172b4d;
+  font-weight: 700;
 }
 
 .work-list li {
@@ -40,7 +41,9 @@ a {
 header {
   display: flex;
   justify-content: space-between;
-  margin: 24px 24px 0 24px;
+
+  /* margin: 24px 24px 0 24px; */
+  margin: 24px 24px 0 0;
 }
 
 header nav {
@@ -154,13 +157,10 @@ h4 {
   margin: 0;
 }
 
-hr {
-  width: 48px;
-  height: 4px;
-  background: #36b37e;
-  border-radius: 24px;
-  margin-top: 24px;
-  color: #36b37e;
+.green-line {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
 }
 
 .work-list {
@@ -199,12 +199,19 @@ hr {
 }
 
 #about-head {
-  background-repeat: no-repeat;
+  background-image: url(./images/illustration2.svg), url(./images/illustration.svg);
+  background-position: top right, bottom left;
+  background-repeat: no-repeat, no-repeat;
+  position: relative;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-content: space-around;
   text-align: center;
+  margin-bottom: 30px;
+
+  /* justify-content: space-around; */
 }
 
 .contact-text p {
@@ -222,6 +229,7 @@ hr {
   font-size: 20px;
   line-height: 32px;
   text-align: center;
+  margin-top: 24px;
 }
 
 #about-head h2 {
@@ -430,7 +438,7 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 24px 24px 0 24px;
+    margin: 24px 24px 0 0;
     margin-right: 0;
   }
 
@@ -444,6 +452,8 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-left: 0;
+    padding-left: 0;
   }
 
   .Desktop-footer-line {
@@ -548,10 +558,6 @@ footer {
     justify-items: center;
     width: 447px;
     height: 48px;
-  }
-
-  hr {
-    display: none;
   }
 
   .work-container {
@@ -717,5 +723,9 @@ footer {
     border-top: 1px solid #dfe1e6;
     height: 1px;
     margin-top: -20px;
+  }
+
+  .green-line {
+    display: none;
   }
 }
