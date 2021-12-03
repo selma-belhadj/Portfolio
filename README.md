@@ -10,7 +10,7 @@
 ![About me languages section](./images/aboutme-languages.png)
 ![Text contact section](./images/textcontact.png )
 ![Form contact section](./images/form-contact.png)
-![Desktop version section](./images/form-contact.png)
+![Desktop version section](./images/Desktop-portfolio-version.png)
 
 
 
