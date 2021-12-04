@@ -199,7 +199,9 @@ h4 {
 }
 
 #about-head {
-  background-image: url(./images/illustration2.svg), url(./images/illustration.svg);
+  background-image:
+    url(./images/illustration2.svg),
+    url(./images/illustration.svg);
   background-position: top right, bottom left;
   background-repeat: no-repeat, no-repeat;
   position: relative;
@@ -585,10 +587,14 @@ footer {
   .work-div:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
     transition: box-shadow 200ms ease-in-out, transform 500ms ease-in-out;
+    transform: translateY(-8px);
+    transform: translateX(8px);
   }
 
   #about-head {
-    background-image: url(./images/illustration-about-me-desktop.png), url(./images/illustration-about-me-2-desktop.png);
+    background-image:
+      url(./images/illustration-about-me-desktop.png),
+      url(./images/illustration-about-me-2-desktop.png);
     background-position: top right, bottom left;
     background-repeat: no-repeat, no-repeat;
     position: relative;
@@ -711,7 +717,10 @@ footer {
   }
 
   .footer-nav {
-    background-image: url(./images/Frame.png), url(./images/illustration-2-contact-form-desktop.png), url(./images/Frame-1.png);
+    background-image:
+      url(./images/Frame.png),
+      url(./images/illustration-2-contact-form-desktop.png),
+      url(./images/Frame-1.png);
     background-position: bottom right, 13rem bottom, bottom left;
     background-size: 10%;
     display: flex;
