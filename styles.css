@@ -582,6 +582,11 @@ footer {
     margin-bottom: 17px;
   }
 
+  .work-div:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: box-shadow 200ms ease-in-out, transform 500ms ease-in-out;
+  }
+
   #about-head {
     background-image: url(./images/illustration-about-me-desktop.png), url(./images/illustration-about-me-2-desktop.png);
     background-position: top right, bottom left;
