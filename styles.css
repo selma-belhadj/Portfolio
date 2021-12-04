@@ -32,7 +32,7 @@ a {
   background: #ebf0ee;
   border-radius: 4px;
   margin-bottom: 8px;
-  padding: 12px;
+  padding: 8px;
   font-weight: 600;
   margin-left: 5px;
   margin-right: 5px;
@@ -67,7 +67,7 @@ header .fa-git {
   color: #28352f;
   font-weight: 600;
   font-size: 20px;
-  width: 90px;
+  min-width: 90px;
   height: 28px;
 }
 
@@ -119,7 +119,7 @@ i {
   justify-content: space-around;
   text-align: center;
   color: #28352f;
-  width: 227px;
+  min-width: 227px;
   height: 97px;
   margin: 0 auto;
   margin-bottom: 20px;
@@ -152,7 +152,7 @@ h4 {
 
 .projectimg {
   height: 252px;
-  width: 100%;
+  min-width: 100%;
   background-color: #ebf0ee;
   margin: 0;
 }
@@ -174,12 +174,12 @@ h4 {
   list-style: none;
   color: #36b37e;
   margin: 0;
-  padding: 12px;
+  padding: 10px;
   height: auto;
 }
 
 .work-button {
-  width: 122px;
+  min-width: 122px;
   height: 48px;
   font-weight: 500;
   font-size: 17px;
@@ -203,7 +203,7 @@ h4 {
   background-position: top right, bottom left;
   background-repeat: no-repeat, no-repeat;
   position: relative;
-  width: 100%;
+  min-width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -224,7 +224,7 @@ h4 {
 }
 
 #about-head p {
-  width: 351px;
+  min-width: 351px;
   height: 189px;
   font-size: 20px;
   line-height: 32px;
@@ -290,7 +290,7 @@ h4 {
 }
 
 .about-button {
-  width: 159px;
+  min-width: 159px;
   height: 48px;
   font-weight: 500;
   font-size: 17px;
@@ -342,7 +342,7 @@ h4 {
 }
 
 .contact-text {
-  width: 327px;
+  min-width: 327px;
   height: 363px;
   margin: 24px 0;
   margin: 0 auto;
@@ -350,7 +350,7 @@ h4 {
 }
 
 .form-class {
-  width: 327px;
+  min-width: 327px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -360,7 +360,7 @@ h4 {
 }
 
 input {
-  width: 327px;
+  min-width: 327px;
   height: 48px;
   border: 1px solid #e5e5e5;
   box-sizing: border-box;
@@ -381,7 +381,7 @@ input {
 }
 
 .form-class textarea {
-  width: 327px;
+  min-width: 327px;
   height: 114px;
   font-style: normal;
   font-weight: normal;
@@ -400,7 +400,7 @@ textarea::placeholder {
 }
 
 .line {
-  width: 5px;
+  min-width: 5px;
   text-align: center;
   margin-left: 0;
   color: black;
@@ -502,7 +502,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
+    min-width: 40px;
     height: 40px;
     margin: 0 auto;
   }
@@ -510,7 +510,7 @@ footer {
   .desktop-nav {
     align-items: center;
     list-style: none;
-    width: 100%;
+    min-width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -532,7 +532,7 @@ footer {
   }
 
   .intro {
-    width: 920px;
+    min-width: 920px;
     height: 114px;
     margin-bottom: 0;
     letter-spacing: 0.37px;
@@ -541,7 +541,7 @@ footer {
   }
 
   .info {
-    width: 920px;
+    min-width: 920px;
     height: 96px;
     display: flex;
     justify-content: center;
@@ -556,7 +556,7 @@ footer {
   #main-head {
     margin-left: 29%;
     justify-items: center;
-    width: 447px;
+    min-width: 447px;
     height: 48px;
   }
 
@@ -568,7 +568,7 @@ footer {
     margin-left: 70px;
     margin-right: 135px;
     margin-bottom: 108px;
-    width: 1120px;
+    min-width: 1120px;
     padding: 0;
   }
 
@@ -577,7 +577,7 @@ footer {
     border: 2px solid #ebf0ee;
     border-radius: 8px;
     height: 474px;
-    width: 327px;
+    min-width: 327px;
     margin-right: 17px;
     margin-bottom: 17px;
   }
@@ -587,7 +587,7 @@ footer {
     background-position: top right, bottom left;
     background-repeat: no-repeat, no-repeat;
     position: relative;
-    width: 1278px;
+    min-width: 1278px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -602,11 +602,11 @@ footer {
     font-size: 28px;
     line-height: 52px;
     color: #172b4d;
-    width: 463px;
+    min-width: 463px;
   }
 
   #about-head p {
-    width: 920px;
+    min-width: 920px;
     height: 189px;
     font-size: 20px;
     line-height: 32px;
@@ -638,7 +638,7 @@ footer {
     border: 2px solid #ebf0ee;
     border-radius: 8px;
     height: 352px;
-    width: 369px;
+    min-width: 369px;
   }
 
   .about-div h4 {
@@ -657,7 +657,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    width: 95%;
+    min-width: 95%;
   }
 
   .footer-img,
@@ -673,7 +673,7 @@ footer {
 
   .contact-text {
     margin-left: 0;
-    width: 463px;
+    min-width: 463px;
     height: 256px;
     margin-right: 10px;
   }
@@ -683,25 +683,25 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     padding: 0;
-    width: 684px;
+    min-width: 684px;
     height: 330px;
   }
 
   #name {
     height: 48px;
-    width: 680px;
+    min-width: 680px;
     border-radius: 4px;
   }
 
   #email {
     height: 48px;
-    width: 680px;
+    min-width: 680px;
     border-radius: 4px;
   }
 
   #mail-text {
     height: 114px;
-    width: 680px;
+    min-width: 680px;
     border-radius: 4px;
   }
 
@@ -715,11 +715,11 @@ footer {
     justify-content: center;
     background-repeat: no-repeat;
     margin-top: 10%;
-    width: 1278px;
+    min-width: 1278px;
   }
 
   .Desktop-footer-line {
-    width: 1278px;
+    min-width: 1278px;
     border-top: 1px solid #dfe1e6;
     height: 1px;
     margin-top: -20px;
