@@ -195,7 +195,10 @@ h4 {
 
 .linkhover:hover {
   cursor: pointer;
-  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+
+  /* box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24); */
+  animation: action-rot 250ms ease-in-out;
+  transform: rotateY(180deg);
 }
 
 #about-head {
@@ -533,6 +536,15 @@ footer {
     font-weight: 600;
   }
 
+  .desktop-nav li:hover {
+    transform: translateY(-2px);
+    transition: background-color 60ms ease-out;
+  }
+
+  .desktop-nav a:hover {
+    color: #36b37e;
+  }
+
   .intro {
     min-width: 920px;
     height: 114px;
@@ -543,7 +555,7 @@ footer {
   }
 
   .info {
-    min-width: 920px;
+    width: 920px;
     height: 96px;
     display: flex;
     justify-content: center;
@@ -587,8 +599,8 @@ footer {
   .work-div:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
     transition: box-shadow 200ms ease-in-out, transform 500ms ease-in-out;
-    transform: translateY(-8px);
-    transform: translateX(8px);
+    transform: translateY(-2px);
+    transform: translateX(-2px);
   }
 
   #about-head {
@@ -598,7 +610,7 @@ footer {
     background-position: top right, bottom left;
     background-repeat: no-repeat, no-repeat;
     position: relative;
-    min-width: 1278px;
+    min-width: 1178px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -613,11 +625,11 @@ footer {
     font-size: 28px;
     line-height: 52px;
     color: #172b4d;
-    min-width: 463px;
+    width: 463px;
   }
 
   #about-head p {
-    min-width: 920px;
+    width: 920px;
     height: 189px;
     font-size: 20px;
     line-height: 32px;
@@ -642,6 +654,11 @@ footer {
     margin-left: 55px;
     margin-right: 143px;
     margin-bottom: 108px;
+  }
+
+  .info-about-me div:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transform: translateY(-2px);
   }
 
   .about-div {
@@ -700,19 +717,19 @@ footer {
 
   #name {
     height: 48px;
-    min-width: 680px;
+    min-width: 630px;
     border-radius: 4px;
   }
 
   #email {
     height: 48px;
-    min-width: 680px;
+    min-width: 630px;
     border-radius: 4px;
   }
 
   #mail-text {
     height: 114px;
-    min-width: 680px;
+    min-width: 630px;
     border-radius: 4px;
   }
 
@@ -729,11 +746,11 @@ footer {
     justify-content: center;
     background-repeat: no-repeat;
     margin-top: 10%;
-    min-width: 1278px;
+    min-width: 1178px;
   }
 
   .Desktop-footer-line {
-    min-width: 1278px;
+    min-width: 1178px;
     border-top: 1px solid #dfe1e6;
     height: 1px;
     margin-top: -20px;
@@ -741,5 +758,10 @@ footer {
 
   .green-line {
     display: none;
+  }
+
+  .icon-list li:hover {
+    animation: rotation 200ms linear both;
+    color: rgba(54, 179, 126, 1);
   }
 }
