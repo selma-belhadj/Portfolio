@@ -108,6 +108,10 @@ h2 span {
   color: #505f79;
 }
 
+.fa:hover {
+  color: #36b37e;
+}
+
 i {
   color: #505f79;
 }
