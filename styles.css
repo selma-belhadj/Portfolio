@@ -438,7 +438,7 @@ footer {
   justify-content: center;
 }
 
-@media screen and (max-width: 922px) {
+@media screen and (max-width: 992px) {
   .header-desktop {
     display: flex;
     justify-content: center;
@@ -747,6 +747,7 @@ footer {
     background-repeat: no-repeat;
     margin-top: 10%;
     min-width: 1178px;
+    overflow-y: hidden;
   }
 
   .Desktop-footer-line {
