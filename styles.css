@@ -79,7 +79,7 @@ nav .fa-bars {
 }
 
 h2 span {
-  color: #36b37e;
+  color: #1d6346;
 }
 
 .info {
@@ -143,7 +143,7 @@ i {
   margin-right: 22px;
 }
 
-h4 {
+h3 {
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
@@ -185,7 +185,7 @@ h4 {
   font-size: 17px;
   line-height: 24px;
   color: #fff;
-  background: #36b37f;
+  background: #1d6346;
   border-radius: 4px;
   padding: 12px;
   border: none;
@@ -291,7 +291,7 @@ h4 {
   font-weight: 600;
   margin-left: 5px;
   margin-right: 5px;
-  color: #36b37e;
+  color: #1d6346;
 }
 
 .about-button {
@@ -301,7 +301,7 @@ h4 {
   font-size: 17px;
   line-height: 24px;
   color: #fff;
-  background: #36b37f;
+  background: #1d6346;
   border-radius: 4px;
   padding: 12px;
   border: none;
@@ -315,7 +315,7 @@ h4 {
 
 .about-button:hover {
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
-  background: #36b37f;
+  background: #143e2d;
   color: #fff;
   cursor: pointer;
 }
@@ -331,13 +331,13 @@ h4 {
 
 .work-button:hover {
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
-  background: #36b37f;
+  background: #1b5a41;
   color: #fff;
   cursor: pointer;
 }
 
 .work-button:active {
-  background: #008552;
+  background: #143e2d;
   color: #fff;
 }
 
@@ -618,6 +618,7 @@ footer {
     text-align: center;
     margin-bottom: 30px;
     margin-top: 192px;
+    margin-right: 60px;
   }
 
   .contact-text p {
@@ -669,7 +670,7 @@ footer {
     min-width: 369px;
   }
 
-  .about-div h4 {
+  .about-div h3 {
     padding-top: 10px;
     padding-bottom: 20px;
     margin-bottom: -10px;
@@ -748,6 +749,7 @@ footer {
     margin-top: 10%;
     min-width: 1178px;
     overflow-y: hidden;
+    margin-right: 60px;
   }
 
   .Desktop-footer-line {
