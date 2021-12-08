@@ -6,7 +6,7 @@
 }
 
 main {
-  min-height: 100vh;
+  min-height: 200vh;
   display: grid;
 }
 
@@ -429,13 +429,14 @@ footer {
   font-weight: normal;
   font-size: 20px;
   line-height: 32px;
+  margin-bottom: 90px;
 }
 
 .footer-img {
   margin: 0 auto;
-  margin-bottom: 8px;
   display: flex;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 992px) {
@@ -695,9 +696,17 @@ footer {
   }
 
   .icon-list-div-footer {
-    margin-top: 225px;
     height: 42px;
-    margin-bottom: -25px;
+    margin-top: 20px;
+    margin-bottom: -60px;
+  }
+
+  .Desktop-footer-line {
+    min-width: 1178px;
+    border-top: 1px solid #dfe1e6;
+    height: 1px;
+    margin-top: 350px;
+    margin-bottom: -10px;
   }
 
   .contact-text {
@@ -714,6 +723,7 @@ footer {
     padding: 0;
     min-width: 684px;
     height: 330px;
+    margin-top: 30px;
   }
 
   #name {
@@ -748,15 +758,8 @@ footer {
     background-repeat: no-repeat;
     margin-top: 10%;
     min-width: 1178px;
-    overflow-y: hidden;
     margin-right: 60px;
-  }
-
-  .Desktop-footer-line {
-    min-width: 1178px;
-    border-top: 1px solid #dfe1e6;
-    height: 1px;
-    margin-top: -20px;
+    padding-bottom: 10px;
   }
 
   .green-line {
