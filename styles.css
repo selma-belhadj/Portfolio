@@ -438,6 +438,47 @@ footer {
   justify-content: center;
   margin-bottom: 10px;
 }
+.hamburger{
+  display: none;
+  background-color: black;
+  color: white;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 199;
+  top: 0;
+  left: 0;
+}
+
+.hamburger ul li a{
+  color: #fff5e1;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  line-height: 44px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Inter", sans-serif;
+  
+}
+
+.hamburger ul li {
+  list-style: none;
+}
+
+.hamburger ul{
+  padding: 108px 96px 28px 28px;
+  
+}
+
+.closemenu{
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top:40px;
+  right: 40px;
+}
 
 @media screen and (max-width: 992px) {
   .header-desktop {
@@ -467,7 +508,14 @@ footer {
   }
 }
 
+.hamburger{
+  display: none;
+}
+
 @media (min-width: 992px) {
+  
+ 
+
   header {
     top: 0;
     justify-content: center;
