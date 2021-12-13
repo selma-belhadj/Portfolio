@@ -6,7 +6,7 @@
 }
 
 main {
-  min-height: 100vh;
+  min-height: 200vh;
   display: grid;
 }
 
@@ -79,7 +79,7 @@ nav .fa-bars {
 }
 
 h2 span {
-  color: #36b37e;
+  color: #1d6346;
 }
 
 .info {
@@ -143,7 +143,7 @@ i {
   margin-right: 22px;
 }
 
-h4 {
+h3 {
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
@@ -185,7 +185,7 @@ h4 {
   font-size: 17px;
   line-height: 24px;
   color: #fff;
-  background: #36b37f;
+  background: #1d6346;
   border-radius: 4px;
   padding: 12px;
   border: none;
@@ -291,7 +291,7 @@ h4 {
   font-weight: 600;
   margin-left: 5px;
   margin-right: 5px;
-  color: #36b37e;
+  color: #1d6346;
 }
 
 .about-button {
@@ -301,7 +301,7 @@ h4 {
   font-size: 17px;
   line-height: 24px;
   color: #fff;
-  background: #36b37f;
+  background: #1d6346;
   border-radius: 4px;
   padding: 12px;
   border: none;
@@ -315,7 +315,7 @@ h4 {
 
 .about-button:hover {
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
-  background: #36b37f;
+  background: #143e2d;
   color: #fff;
   cursor: pointer;
 }
@@ -331,13 +331,13 @@ h4 {
 
 .work-button:hover {
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
-  background: #36b37f;
+  background: #1b5a41;
   color: #fff;
   cursor: pointer;
 }
 
 .work-button:active {
-  background: #008552;
+  background: #143e2d;
   color: #fff;
 }
 
@@ -429,13 +429,14 @@ footer {
   font-weight: normal;
   font-size: 20px;
   line-height: 32px;
+  margin-bottom: 90px;
 }
 
 .footer-img {
   margin: 0 auto;
-  margin-bottom: 8px;
   display: flex;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 992px) {
@@ -618,6 +619,7 @@ footer {
     text-align: center;
     margin-bottom: 30px;
     margin-top: 192px;
+    margin-right: 60px;
   }
 
   .contact-text p {
@@ -669,7 +671,7 @@ footer {
     min-width: 369px;
   }
 
-  .about-div h4 {
+  .about-div h3 {
     padding-top: 10px;
     padding-bottom: 20px;
     margin-bottom: -10px;
@@ -694,9 +696,17 @@ footer {
   }
 
   .icon-list-div-footer {
-    margin-top: 225px;
     height: 42px;
-    margin-bottom: -25px;
+    margin-top: 20px;
+    margin-bottom: -60px;
+  }
+
+  .Desktop-footer-line {
+    min-width: 1178px;
+    border-top: 1px solid #dfe1e6;
+    height: 1px;
+    margin-top: 350px;
+    margin-bottom: -10px;
   }
 
   .contact-text {
@@ -713,6 +723,7 @@ footer {
     padding: 0;
     min-width: 684px;
     height: 330px;
+    margin-top: 30px;
   }
 
   #name {
@@ -747,14 +758,8 @@ footer {
     background-repeat: no-repeat;
     margin-top: 10%;
     min-width: 1178px;
-    overflow-y: hidden;
-  }
-
-  .Desktop-footer-line {
-    min-width: 1178px;
-    border-top: 1px solid #dfe1e6;
-    height: 1px;
-    margin-top: -20px;
+    margin-right: 60px;
+    padding-bottom: 10px;
   }
 
   .green-line {
