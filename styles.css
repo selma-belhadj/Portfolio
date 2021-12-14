@@ -498,6 +498,48 @@ footer {
   right: 40px;
 }
 
+.card-work-detail-mobile-title{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172B4D;
+  margin: 0px 12px;
+
+}
+
+.card-work-detail-mobile ul {
+  justify-content: left;
+}
+
+.card-work-detail-mobile p{
+  text-align: justify;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
+  margin: 0px 12px 12px 0px;
+}
+
+.card-work-detail-mobile button{
+  justify-content: center;
+  align-items: center;
+}
+
+.card-work-detail-mobile-buttons{
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;  
+} 
+
+.card-work-detail-mobile-buttons button{
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 @media screen and (max-width: 992px) {
   .header-desktop {
     display: flex;
