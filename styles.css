@@ -2,7 +2,11 @@
   margin: 0;
   box-sizing: border-box;
   color: #172b4d;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 main {
@@ -26,6 +30,8 @@ a {
   text-align: center;
   color: #172b4d;
   font-weight: 700;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .work-list li {
@@ -69,6 +75,7 @@ header .fa-git {
   font-size: 20px;
   min-width: 90px;
   height: 28px;
+  margin-left: 24px;
 }
 
 nav .fa-bars {
@@ -195,16 +202,12 @@ h3 {
 
 .linkhover:hover {
   cursor: pointer;
-
-  /* box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24); */
   animation: action-rot 250ms ease-in-out;
   transform: rotateY(180deg);
 }
 
 #about-head {
-  background-image:
-    url(./images/illustration2.svg),
-    url(./images/illustration.svg);
+  background-image: url(./images/illustration2.svg), url(./images/illustration.svg);
   background-position: top right, bottom left;
   background-repeat: no-repeat, no-repeat;
   position: relative;
@@ -215,8 +218,6 @@ h3 {
   align-items: center;
   text-align: center;
   margin-bottom: 30px;
-
-  /* justify-content: space-around; */
 }
 
 .contact-text p {
@@ -438,45 +439,62 @@ footer {
   justify-content: center;
   margin-bottom: 10px;
 }
-.hamburger{
+
+#whitebox {
+  background-color: #fff;
+  border-radius: 0 0 20px 20px;
+  width: 100%;
+  height: 98vh;
+  margin-bottom: 44px;
+}
+
+.hamburger {
   display: none;
-  background-color: black;
-  color: white;
-  position: absolute;
+  background-color: #e5e5e5;
+  position: fixed;
   height: 100vh;
   width: 100vw;
   z-index: 199;
   top: 0;
   left: 0;
+  padding-bottom: 30px;
+  flex-direction: column;
 }
 
-.hamburger ul li a{
-  color: #fff5e1;
+.hamburger ul li a {
+  color: #3a4a42;
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: self-start;
   justify-content: center;
-  line-height: 44px;
-  font-weight: 700;
   font-style: normal;
-  font-family: "Inter", sans-serif;
-  
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  font-family: 'Inter', sans-serif;
 }
 
 .hamburger ul li {
   list-style: none;
+  margin-bottom: 40px;
 }
 
-.hamburger ul{
+.hamburger ul {
   padding: 108px 96px 28px 28px;
-  
 }
 
-.closemenu{
+.menu-bottom-img {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -15px;
+}
+
+.closemenu {
   width: 14px;
   height: 14px;
   position: absolute;
-  top:40px;
+  top: 40px;
   right: 40px;
 }
 
@@ -508,13 +526,10 @@ footer {
   }
 }
 
-.hamburger{
-  display: none;
-}
-
 @media (min-width: 992px) {
-  
- 
+  .hamburger {
+    display: none;
+  }
 
   header {
     top: 0;
@@ -653,9 +668,7 @@ footer {
   }
 
   #about-head {
-    background-image:
-      url(./images/illustration-about-me-desktop.png),
-      url(./images/illustration-about-me-2-desktop.png);
+    background-image: url(./images/illustration-about-me-desktop.png), url(./images/illustration-about-me-2-desktop.png);
     background-position: top right, bottom left;
     background-repeat: no-repeat, no-repeat;
     position: relative;
@@ -793,10 +806,7 @@ footer {
   }
 
   .footer-nav {
-    background-image:
-      url(./images/Frame.png),
-      url(./images/illustration-2-contact-form-desktop.png),
-      url(./images/Frame-1.png);
+    background-image: url(./images/Frame.png), url(./images/illustration-2-contact-form-desktop.png), url(./images/Frame-1.png);
     background-position: bottom right, 13rem bottom, bottom left;
     background-size: 10%;
     display: flex;

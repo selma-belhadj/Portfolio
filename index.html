@@ -1,62 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="styles.css" />
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script
-			async
-			src="https://www.googletagmanager.com/gtag/js?id=G-9Y4WHS0SJN"
-		></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag() {
-				window.dataLayer.push(arguments);
-			}
-			gtag("js", new Date());
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-9Y4WHS0SJN"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
       gtag('config', 'G-9Y4WHS0SJN');
     </script>
     <title>Selma Belhadj Portfolio home page</title>
-    <script src="script.js" defer> </script>
+    <script src="script.js" defer></script>
   </head>
   <body>
     <header class="header-desktop">
       <nav>
-      <h2 class="welcome"><a href="#">Welcome</a></h2>
-        
+        <h2 class="welcome"><a href="#">Welcome</a></h2>
+
         <ul class="desktop-nav">
-          <li><a href="#portfolio-home">Portfolio</a></li>
-          <li><a href="#about-section">About</a></li>
-          <li><a href="#contact-section">Contact</a></li>
+          <li><a href="#main-head">Portfolio</a></li>
+          <li><a href="#about-head">About</a></li>
+          <li><a href="#contact-container">Contact</a></li>
         </ul>
-        <i class="fa fa-bars" id="menuicon" ></i>
-        <div class='hamburger'>
-          <img src="./images/Icon.png" alt="close the menu" class="closemenu">
-          <ul>
-            <li><a href="#portfolio-home">Portfolio</a></li>
-            <li><a href="#about-section">About</a></li>
-            <li><a href="#contact-section">Contact</a></li>
-          </ul>
+        <i class="fa fa-bars" id="menuicon"></i>
+        <div class="hamburger">
+          <div id="whitebox">
+            <img
+              src="./images/Icon.png"
+              alt="close the menu"
+              class="closemenu"
+            />
+            <ul>
+              <li><a href="#main-head">Portfolio</a></li>
+              <li><a href="#about-head">About</a></li>
+              <li><a href="#contact-container">Contact</a></li>
+            </ul>
+          </div>
+          <img
+            class="menu-bottom-img"
+            src="./images/Shape.svg"
+            alt="black line"
+          />
         </div>
       </nav>
       <section class="home-page">
         <h2 class="intro">
-          Hey there. I'm Selma <br /><span
-            >I am a software 
-            developer</span>
+          Hey there. I'm Selma <br /><span>I am a software developer</span>
         </h2>
         <p class="info">
-          I can help you build a product , feature or website Look through some of
-          my work and experience! If you like what you see and have a project you
-          need coded, don’t hestiate to contact me.
+          I can help you build a product , feature or website Look through some
+          of my work and experience! If you like what you see and have a project
+          you need coded, don’t hestiate to contact me.
         </p>
         <ul class="icon-list">
           <li>
@@ -79,87 +88,85 @@
         <br />
         <br />
         <i id="down-arrow" class="linkhover">
-          <img src="images/Disabled.png" alt="Scroll down"/>
+          <img src="images/Disabled.png" alt="Scroll down" />
         </i>
       </section>
     </header>
 
     <main>
       <div id="main-head">
-        <h2>
-          My Recent Works
-        </h2>
+        <h2>My Recent Works</h2>
         <div class="green-line">
-          <img src="images/Indicator.png" alt="green line">
-      </div>
+          <img src="images/Indicator.png" alt="green line" />
+        </div>
       </div>
       <div class="work-container">
-      <div class="work-div">
-        <i class="projectimg"></i>
-        <h3>Multi-Post Stories<br />Gain + Glory</h3>
-        <ul class="work-list">
-          <li>Ruby on rails</li>
-          <li>css</li>
-          <li>JavScript</li>
-          <li>html</li>
-        </ul>
-        <button class="work-button" type="button">See Project</button>
-      </div>
-      <div class="work-div">
-        <i class="projectimg"></i>
-        <h3>Multi-Post Stories<br />Gain + Glory</h3>
-        <ul class="work-list">
-          <li>Ruby on rails</li>
-          <li>css</li>
-          <li>JavScript</li>
-          <li>html</li>
-        </ul>
-        <button class="work-button" type="button">See Project</button>
-      </div>
-      <div class="work-div">
-        <i class="projectimg"></i>
-        <h3>Multi-Post Stories<br />Gain + Glory</h3>
-        <ul class="work-list">
-          <li>Ruby on rails</li>
-          <li>css</li>
-          <li>JavScript</li>
-          <li>html</li>
-        </ul>
-        <button class="work-button" type="button">See Project</button>
-      </div>
-      <div class="work-div">
-        <i class="projectimg"></i>
-        <h3>Multi-Post Stories<br />Gain + Glory</h3>
-        <ul class="work-list">
-          <li>Ruby on rails</li>
-          <li>css</li>
-          <li>JavScript</li>
-          <li>html</li>
-        </ul>
-        <button class="work-button" type="button">See Project</button>
-      </div>
-      <div class="work-div">
-        <i class="projectimg"></i>
-        <h3>Multi-Post Stories<br />Gain + Glory</h3>
-        <ul class="work-list">
-          <li>Ruby on rails</li>
-          <li>css</li>
-          <li>JavScript</li>
-          <li>html</li>
-        </ul>
-        <button class="work-button" type="button">See Project</button>
-      </div>
-      <div class="work-div">
-        <i class="projectimg"></i>
-        <h3>Multi-Post Stories<br />Gain + Glory</h3>
-        <ul class="work-list">
-          <li>Ruby on rails</li>
-          <li>css</li>
-          <li>JavScript</li>
-          <li>html</li>
-        </ul>
-        <button class="work-button" type="button">See Project</button>
-      </div>
+        <div class="work-div">
+          <i class="projectimg"></i>
+          <h3>Multi-Post Stories<br />Gain + Glory</h3>
+          <ul class="work-list">
+            <li>Ruby on rails</li>
+            <li>css</li>
+            <li>JavScript</li>
+            <li>html</li>
+          </ul>
+          <button class="work-button" type="button">See Project</button>
+        </div>
+        <div class="work-div">
+          <i class="projectimg"></i>
+          <h3>Multi-Post Stories<br />Gain + Glory</h3>
+          <ul class="work-list">
+            <li>Ruby on rails</li>
+            <li>css</li>
+            <li>JavScript</li>
+            <li>html</li>
+          </ul>
+          <button class="work-button" type="button">See Project</button>
+        </div>
+        <div class="work-div">
+          <i class="projectimg"></i>
+          <h3>Multi-Post Stories<br />Gain + Glory</h3>
+          <ul class="work-list">
+            <li>Ruby on rails</li>
+            <li>css</li>
+            <li>JavScript</li>
+            <li>html</li>
+          </ul>
+          <button class="work-button" type="button">See Project</button>
+        </div>
+        <div class="work-div">
+          <i class="projectimg"></i>
+          <h3>Multi-Post Stories<br />Gain + Glory</h3>
+          <ul class="work-list">
+            <li>Ruby on rails</li>
+            <li>css</li>
+            <li>JavScript</li>
+            <li>html</li>
+          </ul>
+          <button class="work-button" type="button">See Project</button>
+        </div>
+        <div class="work-div">
+          <i class="projectimg"></i>
+          <h3>Multi-Post Stories<br />Gain + Glory</h3>
+          <ul class="work-list">
+            <li>Ruby on rails</li>
+            <li>css</li>
+            <li>JavScript</li>
+            <li>html</li>
+          </ul>
+          <button class="work-button" type="button">See Project</button>
+        </div>
+        <div class="work-div">
+          <i class="projectimg"></i>
+          <h3>Multi-Post Stories<br />Gain + Glory</h3>
+          <ul class="work-list">
+            <li>Ruby on rails</li>
+            <li>css</li>
+            <li>JavScript</li>
+            <li>html</li>
+          </ul>
+          <button class="work-button" type="button">See Project</button>
+        </div>
       </div>
       <div id="about-head">
         <h2>About me</h2>
@@ -172,102 +179,121 @@
         <button class="about-button" type="button">Get My Resume</button>
       </div>
       <div class="info-about-me">
-      <div class="about-div">
-        <img class="about-icon" id="languages-div" src="images/languages.svg" alt="Languages used" />
-        <h3>Languages</h3>
-        <ul class="about-list">
-          <li>JavaScript</li>
-          <li>Ruby</li>
-          <li>Html</li>
-          <li>CSS</li>
-        </ul>
-      </div>
-      <div class="about-div">
-        <img class="about-icon" src="images/frameworks.svg" alt="Image of framework used" />
-        <h3>Frameworks</h3>
-        <ul class="about-list">
-          <li>Bootstrap</li>
-          <li>Ruby on rails</li>
-          <li>RSpec</li>
-          <li>Capybara</li>
-          <li>Selenium</li>
-        </ul>
-      </div>
-      <div class="about-div">
-        <img class="about-icon" src="images/skills.svg" alt="Icons used" />
-        <h3>Skills</h3>
-        <ul class="about-list">
-          <li>Codekit</li>
-          <li>GitHub</li>
-          <li>Codepen</li>
-          <li>Gitlab</li>
-          <li>Terminal</li>
-        </ul>
-      </div>
-    </div> 
-      <footer class="footer-nav">
-      <div class="form-section">
-        <div class="contact-text">
-          <p>
-            I'm always interested in hearing about new projects, so if you'd
-            like to chat please get in touch.
-          </p>
+        <div class="about-div">
+          <img
+            class="about-icon"
+            id="languages-div"
+            src="images/languages.svg"
+            alt="Languages used"
+          />
+          <h3>Languages</h3>
+          <ul class="about-list">
+            <li>JavaScript</li>
+            <li>Ruby</li>
+            <li>Html</li>
+            <li>CSS</li>
+          </ul>
         </div>
-        <form class="form-class" action="https://formspree.io/f/mlezrpqz" method="POST">
-          <label for="name">
-            <input
-              type="text"
-              id="name"
-              name="full-name"
-              placeholder="Full name"
-              minlength="3"
-              maxlength="30"
-              required
-            />
-          </label>
-          <label for="email">
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Email address"
-              required
-            />
-          </label>
-          <label for="mail-text">
-            <textarea id="mail-text" name="mail-text" maxlength="500" required placeholder="Enter text here"></textarea>
-          </label>
-          <button class="about-button" type="submit">Get in touch</button>
-        </form>
-      </div>
-      <div class="Desktop-footer-line">
-        <hr>
+        <div class="about-div">
+          <img
+            class="about-icon"
+            src="images/frameworks.svg"
+            alt="Image of framework used"
+          />
+          <h3>Frameworks</h3>
+          <ul class="about-list">
+            <li>Bootstrap</li>
+            <li>Ruby on rails</li>
+            <li>RSpec</li>
+            <li>Capybara</li>
+            <li>Selenium</li>
+          </ul>
         </div>
-      <div>
-      <div  class="icon-list-div-footer">
-        <ul class="icon-list">
-          <li>
-            <a href="#"><i class="fa fa-twitter"></i> </a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-linkedin"></i> </a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-medium"></i> </a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-github"></i> </a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-angellist"></i> </a>
-          </li>
-        </ul>
+        <div class="about-div">
+          <img class="about-icon" src="images/skills.svg" alt="Icons used" />
+          <h3>Skills</h3>
+          <ul class="about-list">
+            <li>Codekit</li>
+            <li>GitHub</li>
+            <li>Codepen</li>
+            <li>Gitlab</li>
+            <li>Terminal</li>
+          </ul>
+        </div>
       </div>
-        <p id="email-footer">belhadjselma1@gmail.com</p>
-      </div>
-      <img class="footer-img" src="./images/Shape.svg" alt="line footer"> 
-     </footer>
+      <footer class="footer-nav" id="contact-container">
+        <div class="form-section">
+          <div class="contact-text">
+            <p>
+              I'm always interested in hearing about new projects, so if you'd
+              like to chat please get in touch.
+            </p>
+          </div>
+          <form
+            class="form-class"
+            action="https://formspree.io/f/mlezrpqz"
+            method="POST"
+          >
+            <label for="name">
+              <input
+                type="text"
+                id="name"
+                name="full-name"
+                placeholder="Full name"
+                minlength="3"
+                maxlength="30"
+                required
+              />
+            </label>
+            <label for="email">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email address"
+                required
+              />
+            </label>
+            <label for="mail-text">
+              <textarea
+                id="mail-text"
+                name="mail-text"
+                maxlength="500"
+                required
+                placeholder="Enter text here"
+              ></textarea>
+            </label>
+            <button class="about-button" type="submit">Get in touch</button>
+          </form>
+        </div>
+        <div class="Desktop-footer-line">
+          <hr />
+        </div>
+        <div>
+          <div class="icon-list-div-footer">
+            <ul class="icon-list">
+              <li>
+                <a href="#"><i class="fa fa-twitter"></i> </a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-linkedin"></i> </a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-medium"></i> </a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-github"></i> </a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-angellist"></i> </a>
+              </li>
+            </ul>
+          </div>
+          <p id="email-footer">belhadjselma1@gmail.com</p>
+        </div>
+        <img class="footer-img" src="./images/Shape.svg" alt="line footer" />
+      </footer>
     </main>
-		<script src="https://use.fontawesome.com/1226aa0088.js"></script>
-	</body>
+    <script src="https://use.fontawesome.com/1226aa0088.js"></script>
+  </body>
 </html>
