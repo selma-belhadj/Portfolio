@@ -639,6 +639,10 @@ footer {
     display: none;
   }
 
+  .form-class input {
+    min-height: 40px;
+  }
+
   .hamburger {
     display: none;
   }
