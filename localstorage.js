@@ -1,8 +1,6 @@
 // locastorage
 const contactForm = document.querySelector('#form-section form');
-const { fullname, emailuser, mailtext  } = contactForm.elements;
-console.log(contactForm.elements);
-
+const { fullname, emailuser, mailtext } = contactForm.elements;
 
 // storing the form data in local storage
 contactForm.addEventListener('change', () => {
