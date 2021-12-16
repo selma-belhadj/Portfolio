@@ -383,6 +383,10 @@ input {
   padding: 15px 16px 15px 16px;
 }
 
+.form-class small {
+  color: red;
+}
+
 .form-class textarea {
   min-width: 327px;
   height: 114px;
@@ -637,6 +641,10 @@ footer {
 
   .grey-div {
     display: none;
+  }
+
+  .form-class input {
+    min-height: 40px;
   }
 
   .hamburger {
