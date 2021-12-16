@@ -26,6 +26,9 @@
     </script>
     <title>Selma Belhadj Portfolio home page</title>
     <script src="script.js" defer></script>
+    <script src="validate.js" defer></script>
+    <script src="localstorage.js" defer></script>
+
   </head>
   <body>
     <header class="header-desktop">
@@ -194,8 +197,8 @@
           >
               <input
                 type="text"
-                id="name"
-                name="full-name"
+                id="fullname"
+                name="fullname"
                 placeholder="Full name"
                 minlength="3"
                 maxlength="30"
@@ -204,20 +207,19 @@
         
               <input 
                 type="email"
-                id="email"
+                id="emailuser"
                 name="email"
                 placeholder="Email address"
                 required
               />
-            <label for="mail-text">
               <textarea
-                id="mail-text"
-                name="mail-text"
+                id="mailtext"
+                name="mailtext"
                 maxlength="500"
                 required
                 placeholder="Enter text here"
               ></textarea>
-            </label>
+           
             <button class="about-button" type="submit">Get in touch</button>
           </form>
         </div>
