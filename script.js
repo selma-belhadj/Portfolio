@@ -142,8 +142,6 @@ document.querySelectorAll('.work-btn').forEach((btn) => {
   });
 });
 
-close.addEventListener('click', ()=>{
-  workDetail.style.display ='none'
-})
-
-
+close.addEventListener('click', () => {
+  workDetail.style.display = 'none';
+});
