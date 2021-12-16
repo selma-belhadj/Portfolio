@@ -29,8 +29,8 @@ const projects = [
     description:
     'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident doloribus odio sunt, quaerat unde nostrum numquam soluta nam eos voluptas est quas aperiam enim asperiores, exercitationem accusantium quasi saepe deleniti.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id perspiciatis corrupti, in blanditiis dignissimos soluta impedit illo ea. Ea ducimus pariatur dolorum earum distinctio eum possimus esse obcaecati, doloribus architecto.',
     langs: ['html', 'css', 'javaScript'],
-    gitLink: '#',
-    srcLink: '#',
+    gitLink: 'https://github.com/selma-belhadj/My-1st-Portfolio',
+    srcLink: 'https://selma-belhadj.github.io/My-1st-Portfolio/',
 
   },
   {
@@ -41,8 +41,8 @@ const projects = [
     description:
     'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident doloribus odio sunt, quaerat unde nostrum numquam soluta nam eos voluptas est quas aperiam enim asperiores, exercitationem accusantium quasi saepe deleniti.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id perspiciatis corrupti, in blanditiis dignissimos soluta impedit illo ea. Ea ducimus pariatur dolorum earum distinctio eum possimus esse obcaecati, doloribus architecto.',
     langs: ['html', 'css', 'javaScript'],
-    gitLink: '#',
-    srcLink: '#',
+    gitLink: 'https://github.com/selma-belhadj/My-1st-Portfolio',
+    srcLink: 'https://selma-belhadj.github.io/My-1st-Portfolio/',
 
   },
   {
@@ -53,8 +53,8 @@ const projects = [
     description:
     'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident doloribus odio sunt, quaerat unde nostrum numquam soluta nam eos voluptas est quas aperiam enim asperiores, exercitationem accusantium quasi saepe deleniti.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id perspiciatis corrupti, in blanditiis dignissimos soluta impedit illo ea. Ea ducimus pariatur dolorum earum distinctio eum possimus esse obcaecati, doloribus architecto.',
     langs: ['html', 'css', 'javaScript'],
-    gitLink: '#',
-    srcLink: '#',
+    gitLink: 'https://github.com/selma-belhadj/My-1st-Portfolio',
+    srcLink: 'https://selma-belhadj.github.io/My-1st-Portfolio/',
   },
   {
     id: 4,
@@ -65,7 +65,7 @@ const projects = [
     'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident doloribus odio sunt, quaerat unde nostrum numquam soluta nam eos voluptas est quas aperiam enim asperiores, exercitationem accusantium quasi saepe deleniti.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id perspiciatis corrupti, in blanditiis dignissimos soluta impedit illo ea. Ea ducimus pariatur dolorum earum distinctio eum possimus esse obcaecati, doloribus architecto.',
     langs: ['html', 'css', 'javaScript'],
     gitLink: 'https://github.com/selma-belhadj/My-1st-Portfolio',
-    srcLink: '#',
+    srcLink: 'https://selma-belhadj.github.io/My-1st-Portfolio/',
   },
   {
     id: 5,
@@ -75,8 +75,8 @@ const projects = [
     description:
     'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident doloribus odio sunt, quaerat unde nostrum numquam soluta nam eos voluptas est quas aperiam enim asperiores, exercitationem accusantium quasi saepe deleniti.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id perspiciatis corrupti, in blanditiis dignissimos soluta impedit illo ea. Ea ducimus pariatur dolorum earum distinctio eum possimus esse obcaecati, doloribus architecto.',
     langs: ['html', 'css', 'javaScript'],
-    gitLink: '#',
-    srcLink: '#',
+    gitLink: 'https://github.com/selma-belhadj/My-1st-Portfolio',
+    srcLink: 'https://selma-belhadj.github.io/My-1st-Portfolio/',
   },
   {
     id: 6,
@@ -86,8 +86,8 @@ const projects = [
     description:
     'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident doloribus odio sunt, quaerat unde nostrum numquam soluta nam eos voluptas est quas aperiam enim asperiores, exercitationem accusantium quasi saepe deleniti.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id perspiciatis corrupti, in blanditiis dignissimos soluta impedit illo ea. Ea ducimus pariatur dolorum earum distinctio eum possimus esse obcaecati, doloribus architecto.',
     langs: ['Ruby on rails', 'css', 'javaScript', 'html'],
-    gitLink: '#',
-    srcLink: '#',
+    gitLink: 'https://github.com/selma-belhadj/My-1st-Portfolio',
+    srcLink: 'https://selma-belhadj.github.io/My-1st-Portfolio/',
 
   },
 ];
