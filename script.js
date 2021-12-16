@@ -145,3 +145,20 @@ document.querySelectorAll('.work-btn').forEach((btn) => {
 close.addEventListener('click', () => {
   workDetail.style.display = 'none';
 });
+
+// validate email
+const form = document.querySelector('#form-section form');
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const email = document.getElementById('email');
+  if (email.value.toLowerCase() !== email.value) {
+    const span = document.getElementById('email');
+    span.innerText = 'Your email is not valid, it should be lowercase';
+    span.style.color = 'red';
+    console.log(span)
+    return false;
+  }
+  form.submit();
+  return true;
+});
