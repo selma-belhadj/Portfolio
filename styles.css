@@ -645,6 +645,12 @@ footer {
 
   .form-class input {
     min-height: 40px;
+    min-width: 630px;
+  }
+
+  .form-class textarea {
+    min-height: 200px;
+    min-width: 630px;
   }
 
   .hamburger {

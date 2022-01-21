@@ -1,10 +1,13 @@
 // Mobile Menu
 document.querySelector('#menuicon').addEventListener('click', () => {
   document.querySelector('.hamburger').style.display = 'flex';
+  console.log('Open');
+
 });
 
 document.querySelector('.closemenu').addEventListener('click', () => {
   document.querySelector('.hamburger').style.display = 'none';
+  console.log('hello');
 });
 
 document.querySelectorAll('#whitebox a').forEach((element) => {
@@ -12,6 +15,7 @@ document.querySelectorAll('#whitebox a').forEach((element) => {
     document.querySelector('.hamburger').style.display = 'none';
   });
 });
+
 window.onresize = () => {
   if (window.innerWidth > 992) {
     document.querySelector('.hamburger').style.display = 'none';
@@ -23,14 +27,14 @@ const work = document.querySelector('.work-container');
 const projects = [
   {
     id: 1,
-    title: 'Tonic',
-    image: './images/modal-popup.png',
+    title: 'Today\'s TO DO LIST',
+    image: './images/todolist.png',
     imageAlt: 'First Project Image',
     description:
-    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident doloribus odio sunt, quaerat unde nostrum numquam soluta nam eos voluptas est quas aperiam enim asperiores, exercitationem accusantium quasi saepe deleniti.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id perspiciatis corrupti, in blanditiis dignissimos soluta impedit illo ea. Ea ducimus pariatur dolorum earum distinctio eum possimus esse obcaecati, doloribus architecto.',
+    'In this project, I have built a simple HTML list of To Do tasks. I have implemented the CRUD methods.',
     langs: ['html', 'css', 'javaScript'],
-    gitLink: 'https://github.com/selma-belhadj/My-1st-Portfolio',
-    srcLink: 'https://selma-belhadj.github.io/My-1st-Portfolio/',
+    gitLink: 'https://selma-belhadj.github.io/To-Do-list-App/',
+    srcLink: 'https://github.com/selma-belhadj/webpack-to-do-list',
 
   },
   {
@@ -144,33 +148,4 @@ document.querySelectorAll('.work-btn').forEach((btn) => {
 
 close.addEventListener('click', () => {
   workDetail.style.display = 'none';
-});
-
-// validate email
-const form = document.querySelector('#form-section form');
-const { email } = form.elements;
-
-function showMsg(input, msg) {
-  const small = document.createElement('small');
-  small.classList.add('error');
-  small.textContent = msg;
-  form.insertBefore(small, input);
-}
-
-function resetMsg() {
-  document.querySelectorAll('small').forEach((s) => s.remove());
-}
-
-form.addEventListener('submit', (e) => {
-  e.preventDefault();
-
-  resetMsg();
-
-  if (email.value !== email.value.toLowerCase()) {
-    showMsg(email, 'Your email is not valid, it should be lowercase');
-    return false;
-  }
-
-  form.submit();
-  return true;
 });
